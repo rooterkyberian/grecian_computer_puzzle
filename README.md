@@ -2,7 +2,7 @@
 
 A solver for the Grecian Computer puzzle, which consists of 4 rotating discs stacked on top of each other with numbers that need to sum to a target value.
 
-In theory
+In theory it would be easy to add support for more discs etc, but at some point the brute force approach used will not be enough.
 
 ## Setup
 
