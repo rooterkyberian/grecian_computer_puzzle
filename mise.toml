@@ -1,0 +1,6 @@
+[tools]
+python = "3.13"
+uv = "latest"
+
+[tasks.lint-fix]
+run = "uv run ruff check --fix . && uv run ruff format ."

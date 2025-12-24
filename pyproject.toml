@@ -1,0 +1,19 @@
+[project]
+name = "grecian-computer-puzzle"
+version = "0.1.0"
+description = "Grecian computer puzzle solver"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0",
+    "pandas>=2.0",
+    "rich",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=3.0",
+    "ruff>=0.14.10",
+    "pytest-xdist",
+    "pandas-stubs~=2.3.3",
+]
