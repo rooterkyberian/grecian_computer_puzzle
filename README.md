@@ -22,6 +22,9 @@ uv run python prepare_input_file.py -o input.csv
 
 ### 2. Fill in values
 
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/f6e90334-7617-4436-9257-6dadfddce22e" />
+
+
 Mark first column (x=0) on each disc with some tape as a reference point if not already marked.
 Edit the generated CSV file and fill in the `value` column with numbers from your puzzle.
 Use `n` for empty cells.
